@@ -1,10 +1,5 @@
 dependOnProjects([':enroscar-beans'])
 
-dependencies {
-  
-  compile fileTree(dir : 'libs', include : '*.jar')
-    
-}
 
 // POM file modifications
 uploadArchives {
