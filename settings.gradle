@@ -18,6 +18,8 @@ project(':enroscar-sherlock-integration').projectDir =
 
 
 // goro sample
-
 include 'goro-sample'
 project(':goro-sample').projectDir = new File(rootDir, 'goro/sample')
+
+// sample project
+include 'sample-project'
